@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+/* Testarei por enquanto com display flex, pretendo mudar para grid o displacement do site */
+body
+{
+    display: flex;
+    flex-flow: column;
+}
+
+.navBar 
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    height: 4vh;
+    background: rgba(0,0,0,0.8);
+}
+
+.navBar a {
+    margin-right: 40px;
+    font-size: 14px;
+    color: rgba(245,245,247,0.8);
+}
+
+.navBar a:hover {
+    color: rgba(245,245,247,1);
+}
+
+.navbar a:link {
+    color: rgba(245,245,247,0.8);
+}
+
+.navbar a:visited {
+    color: rgba(245,245,247,0.8);
+}
