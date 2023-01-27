@@ -1,0 +1,153 @@
+body{
+    margin: 0 0 0 0;
+    background-color: white;
+}
+
+.header{
+    height: 39.2;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    width:100%;
+    z-index:99;
+    background:black;
+}
+
+.navBar {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0);
+    padding: 10px 0 10px 0;
+    margin: 0 0 0 0;
+}
+
+.navBar a{
+    text-decoration: none;
+    margin-right: 35px;
+    color: #f5f5f7;
+    opacity: .8;
+    font-family: serif;
+    height: 40px;
+    transition: ease-in 0.2s;
+    font-size: 13px;
+}
+
+.navBar a:hover{
+    opacity: 1;
+}
+
+.MacBook-background{
+    background-color: black;
+    padding-top: 55px;
+    cursor: pointer;
+}
+
+.MacBook{
+    color: white;
+    background-image: url(Images/macbook.png);
+    height: 650px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    text-align: center;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-bottom: 13px;
+}
+
+.MacBook h1{
+    color: #f5f5f7;
+    opacity: .95;
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+
+.MacBook h2{
+    color: #f5f5f7;
+    opacity: .95;
+    margin-top: 10px;
+}
+
+.Macbook-text h3{
+    opacity: 0.35;
+}
+
+.Macbook-link1{
+    margin-right: 35px;
+}
+
+.MacBook span a{
+    color: #2997ff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.MacBook span a:hover{
+    text-decoration: underline;
+}
+
+.Mac-mini-background{
+    background-color: black;
+    height: 650px;
+    background-image: url(Images/Mac-mini.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 13px;
+    cursor: pointer;
+}
+
+.Mac-mini-text{
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.Mac-mini-text h1,h2,h3{
+    color: #f5f5f7;
+    margin-top: 0;
+}
+
+.Mac-mini-text h1{
+    color: #f5f5f7;
+    opacity: .95;
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.Mac-mini-text h2{
+    color: #f5f5f7;
+    opacity: .95;
+}
+
+.Mac-mini-text h3{
+    color: #f5f5f7;
+    opacity: 0.35;
+}
+
+.Mac-mini-link1{
+    margin-right: 35px;
+}
+
+.Mac-mini-text span a{
+    text-decoration: none;
+    color: #2997ff;
+    font-size: 18px;
+}
+
+.Mac-mini-text span a:hover{
+    text-decoration: underline;
+}
+
+.Encare-faculdade-background{
+    height: 690px;
+    background-color: #f5f5f7;
+    margin-bottom: 13px;
+    background-image: url(Images/Encare-faculdade.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
