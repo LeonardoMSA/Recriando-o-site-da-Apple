@@ -3,11 +3,22 @@ body{
     background-color: white;
 }
 
+.header{
+    height: 39.2;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    width:100%;
+    z-index:99;
+    background:black;
+}
+
 .navBar {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0);
     padding: 10px 0 10px 0;
     margin: 0 0 0 0;
 }
@@ -30,11 +41,12 @@ body{
 .MacBook-background{
     background-color: black;
     padding-top: 55px;
+    cursor: pointer;
 }
 
 .MacBook{
     color: white;
-    background-image: url(macbook.png);
+    background-image: url(Images/macbook.png);
     height: 650px;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -78,12 +90,13 @@ body{
 .Mac-mini-background{
     background-color: black;
     height: 650px;
-    background-image: url(Mac-mini.png);
+    background-image: url(Images/Mac-mini.png);
     background-repeat: no-repeat;
     background-position: bottom;
     display: flex;
     justify-content: center;
     margin-bottom: 13px;
+    cursor: pointer;
 }
 
 .Mac-mini-text{
@@ -130,7 +143,11 @@ body{
     text-decoration: underline;
 }
 
-.Encare-faculdade{
+.Encare-faculdade-background{
     height: 690px;
-    background-image: url(Encare-faculdade.png);
+    background-color: #f5f5f7;
+    margin-bottom: 13px;
+    background-image: url(Images/Encare-faculdade.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
