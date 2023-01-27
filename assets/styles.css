@@ -1,13 +1,13 @@
 body{
     margin: 0 0 0 0;
-    background-color: black;
+    background-color: white;
 }
 
 .navBar {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    background-color: rgb(0, 0, 0, 0.9);
+    background-color: rgb(0, 0, 0);
     padding: 10px 0 10px 0;
     margin: 0 0 0 0;
 }
@@ -27,18 +27,20 @@ body{
     opacity: 1;
 }
 
+.MacBook-background{
+    background-color: black;
+    padding-top: 55px;
+}
+
 .MacBook{
     color: white;
     background-image: url(macbook.png);
-    height: 680px;
+    height: 650px;
     background-repeat: no-repeat;
     background-position: bottom;
     text-align: center;
     font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-}
-
-.Macbook-text{
-    margin-top: 10px;
+    margin-bottom: 13px;
 }
 
 .MacBook h1{
@@ -46,10 +48,89 @@ body{
     opacity: .95;
     font-size: 50px;
     margin-bottom: 0px;
+    margin-top: 0;
 }
 
 .MacBook h2{
     color: #f5f5f7;
     opacity: .95;
     margin-top: 10px;
+}
+
+.Macbook-text h3{
+    opacity: 0.35;
+}
+
+.Macbook-link1{
+    margin-right: 35px;
+}
+
+.MacBook span a{
+    color: #2997ff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.MacBook span a:hover{
+    text-decoration: underline;
+}
+
+.Mac-mini-background{
+    background-color: black;
+    height: 650px;
+    background-image: url(Mac-mini.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 13px;
+}
+
+.Mac-mini-text{
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.Mac-mini-text h1,h2,h3{
+    color: #f5f5f7;
+    margin-top: 0;
+}
+
+.Mac-mini-text h1{
+    color: #f5f5f7;
+    opacity: .95;
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.Mac-mini-text h2{
+    color: #f5f5f7;
+    opacity: .95;
+}
+
+.Mac-mini-text h3{
+    color: #f5f5f7;
+    opacity: 0.35;
+}
+
+.Mac-mini-link1{
+    margin-right: 35px;
+}
+
+.Mac-mini-text span a{
+    text-decoration: none;
+    color: #2997ff;
+    font-size: 18px;
+}
+
+.Mac-mini-text span a:hover{
+    text-decoration: underline;
+}
+
+.Encare-faculdade{
+    height: 690px;
+    background-image: url(Encare-faculdade.png);
 }
