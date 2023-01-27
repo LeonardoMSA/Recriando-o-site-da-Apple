@@ -1,16 +1,83 @@
+@font-face {
+    font-family: "San Francisco";
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
+
 a{
     text-decoration: none;
 }
+body{
+    margin-top: 4vh;
+}
 
-/* Testarei por enquanto com display flex, pretendo mudar para grid o displacement do site */
-body
+.gridItems
+{
+    display: grid;
+    gap: 1.5vh;
+    grid-template-columns: 2fr;
+    color: #fff;
+}
+
+.gridSpan2{
+    grid-column: span 2;
+}
+
+.titulo
+{
+    padding-top: 45px;
+    font-size: 50px;
+}
+
+.subtitulo
+{
+    padding: 8px;
+    font-size: 26px;
+    font-weight: 100;
+}
+
+.disponibilidade
+{
+    font-size: 18px;
+    color: rgba(245,245,247,0.5);
+    padding: 8px;
+
+}
+
+.saibaMais-preco
 {
     display: flex;
+    flex-flow: row;
+    list-style-type: none;
+    width: 260px;
+    padding: 8px;
+    justify-content: space-around;
+    font-weight: 450;
+    font-size: 18px;
+    
+}
+
+.corAzulLink
+{
+    color: #2997ff;
+}
+
+.imagem{
+    padding: 24px;
+}
+
+.containerM2{
+    background-color: rgba(0,0,0, 1);
+    height: 72.45vh;
+    width: 100vw;
+    display: flex;
     flex-flow: column;
+    align-items: center;
 }
 
 .navBar 
@@ -19,13 +86,22 @@ body
     list-style-type: none;
     justify-content: center;
     align-items: center;
-    height: 4vh;
-    background: rgba(0,0,0,0.8);
+    gap: 40px;
+    height: 4vh; /* Ajeitar (tamanho fixo) */
+    background: rgba(0,0,0,1);
+    font-size: 11.5px;
+    
+
+    z-index: 99;
+    top:0;
+    left:0;
+    right:0;
+    width:100%;
+    z-index:99;
+    position: fixed;
 }
 
 .navBar a {
-    margin-right: 40px;
-    font-size: 14px;
     color: rgba(245,245,247,0.8);
 }
 
