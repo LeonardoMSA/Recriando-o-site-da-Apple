@@ -143,11 +143,70 @@ body{
     text-decoration: underline;
 }
 
-.Encare-faculdade-background{
-    height: 690px;
-    background-color: #f5f5f7;
+.iPhone-background{
+    height: 675px;
+    background-color: #fbfbfd;
     margin-bottom: 13px;
-    background-image: url(Images/Encare-faculdade.png);
+    background-image: url(Images/iPhone-background.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.iPhone-text{
+    text-align: center;
+    height: 200px;
+    margin-top: 30px;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.iPhone-text h1{
+    color: #1d1d1f;
+    margin-bottom: 5px;
+    font-size: 50px;
+}
+
+.iPhone-text h2{
+    color: #1d1d1f;
+    font-size: 39x;
+}
+
+.iPhone-text span a{
+    text-decoration: none;
+    color: #06c;
+    font-size: 20px;
+}
+
+.iPhone-text span a:hover{
+    text-decoration: underline;
+}
+
+.iPhone-link1{
+    margin-right: 35px;
+}
+
+.container{
+    height: 1506px;
+    display: flex;
+    justify-content: center;
+}
+
+.black-unity{
+    height: 610px;
+    width: 694.5px;
+    background-image: url(Images/black-unity.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.apple-watch{
+    height: 610px;
+    width: 694.5px;
+    background-image: url(Images/apple-watch.jpg);
+    margin-left: 13px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
