@@ -196,20 +196,48 @@ body{
     height: 610px;
     width: 694.5px;
     background-image: url(Images/black-unity.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     background-position: center;
     background-size: contain;
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 
 .black-unity-text{
     text-align: center;
+    margin-top: 40px;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 .black-unity-text h1,h4{
     color: #f5f5f7;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.black-unity-text h1{
+    font-size: 40px;
+}
+
+.black-unity-text h4{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.black-unity-text span a{
+    text-decoration: none;
+    color: #2997ff;
+    font-size: 16px;
+}
+
+.black-unity-text span a:hover{
+    text-decoration: underline;
+}
+
+.black-unity-link1{
+    margin-right: 24px;
 }
 
 .apple-watch{
@@ -217,7 +245,7 @@ body{
     width: 694.5px;
     background-image: url(Images/apple-watch.jpg);
     margin-left: 13px;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     background-size: contain;
 }
