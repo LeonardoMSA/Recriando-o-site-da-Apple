@@ -1,16 +1,7 @@
-@font-face {
-    font-family: "San Francisco";
-    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
-}
-
 *{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-}
-
-a{
-    text-decoration: none;
 }
 
 .gridItems
@@ -27,8 +18,14 @@ a{
 
 .titulo
 {
-    padding-top: 45px;
+    padding-top: 95px;
     font-size: 50px;
+}
+
+.tituloPreto{
+    padding-top: 95px;
+    font-size: 50px;
+    color: #000;
 }
 
 .subtitulo
@@ -36,6 +33,14 @@ a{
     padding: 8px;
     font-size: 26px;
     font-weight: 100;
+}
+
+.subtituloPreto
+{
+    padding: 8px;
+    font-size: 26px;
+    font-weight: 100;
+    color: #000;
 }
 
 .disponibilidade
@@ -68,8 +73,18 @@ a{
     padding: 24px;
 }
 
-.containerM2{
+.containerPreto{
     background-color: rgba(0,0,0, 1);
+    height: 76.45vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+}
+
+.containerBranco{
+    background-color: rgba(255,255,255, 1);
     height: 76.45vh;
     width: 100vw;
     display: flex;
@@ -87,8 +102,8 @@ a{
     gap: 40px;
     height: 4vh; /* Ajeitar (tamanho fixo) */
     background: rgba(0,0,0, 0.8);
-    font-size: 11.5px;  
-    z-index: 99;
+    font-size: 11.5px;
+    z-index: 10;
     top:0;
     left:0;
     right:0;
@@ -111,4 +126,8 @@ a{
 
 .navbar a:visited {
     color: rgba(245,245,247,0.8);
+}
+
+a{
+    text-decoration: none;
 }
