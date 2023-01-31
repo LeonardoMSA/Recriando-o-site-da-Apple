@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
 body{
     margin: 0 0 0 0;
     background-color: white;
@@ -50,7 +52,7 @@ body{
     background-repeat: no-repeat;
     background-position: bottom;
     text-align: center;
-    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: 'SF Pro Display', sans-serif;
     margin-bottom: 13px;
 }
 
@@ -245,7 +247,20 @@ body{
     width: 694.5px;
     background-image: url(Images/apple-watch.jpg);
     margin-left: 13px;
+    background-position: center;
     background-repeat: repeat;
     background-size: cover;
     background-size: contain;
+    display: flex;
+    justify-content: center;
+}
+
+.apple-watch-text{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.apple-watch-text img{
+    object-fit: cover;
+    height: 10%;
 }
