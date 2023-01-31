@@ -188,10 +188,11 @@ body{
     margin-right: 35px;
 }
 
-.container{
-    height: 1506px;
+.container1{
+    height: 610px;
     display: flex;
     justify-content: center;
+    margin-bottom: 13px;
 }
 
 .black-unity{
@@ -199,7 +200,6 @@ body{
     width: 694.5px;
     background-image: url(Images/black-unity.jpg);
     background-repeat: repeat;
-    background-size: cover;
     background-position: center;
     background-size: contain;
     display: flex;
@@ -250,17 +250,69 @@ body{
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
-    background-size: contain;
     display: flex;
     justify-content: center;
 }
 
 .apple-watch-text{
     text-align: center;
-    margin-top: 40px;
+    margin-top: 70px;
+}
+
+.apple-watch-text h2{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.apple-watch-text span a{
+    text-decoration: none;
+    color: #2997ff;
+    font-size: 17px;
+}
+
+.apple-watch-text span a:hover{
+    text-decoration: underline;
+}
+
+.apple-watch-link1{
+    margin-right: 24px;
 }
 
 .apple-watch-text img{
     object-fit: cover;
-    height: 10%;
+    height: 9%;
+    margin-bottom: 10px;
+}
+
+.container2{
+    height: 610px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 13px;
+}
+
+.iPhone-pro{
+    height: 610px;
+    width: 694.5px;
+    background-image: url(Images/iPhone-pro-bg.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.apple-watch-ultra{
+    height: 610px;
+    width: 694.5px;
+    background-image: url(Images/apple-watch-ultra-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fbfbfd;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    margin-left: 13px;
+    cursor: pointer;
 }
