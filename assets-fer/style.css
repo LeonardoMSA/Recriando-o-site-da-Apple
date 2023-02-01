@@ -4,22 +4,15 @@
     font-family: sans-serif;
 }
 
-.gridItems
-{
-    display: grid;
-    gap: 1.5vh;
-    grid-template-columns: 2fr;
-    color: #fff;
-}
-
-.gridSpan2{
-    grid-column: span 2;
+body{
+    width: 100vw;
 }
 
 .titulo
 {
     padding-top: 95px;
     font-size: 50px;
+    color: #fff;
 }
 
 .tituloPreto{
@@ -33,6 +26,7 @@
     padding: 8px;
     font-size: 26px;
     font-weight: 100;
+    color: #fff;
 }
 
 .subtituloPreto
@@ -80,7 +74,7 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    
+    margin-bottom: 11.5px;
 }
 
 .containerBranco{
@@ -90,15 +84,15 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    
+    margin-bottom: 11.5px;
 }
 
 .navBar 
 {
     display: flex;
-    list-style-type: none;
     justify-content: center;
     align-items: center;
+    list-style-type: none;
     gap: 40px;
     height: 4vh; /* Ajeitar (tamanho fixo) */
     background: rgba(0,0,0, 0.8);
@@ -130,4 +124,20 @@
 
 a{
     text-decoration: none;
+}
+
+/* Totalmente novo tentando grid */
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100vw;
+    height: auto;
+}
+
+.gridItens{
+    width: 814px;
+    height: 580px;
+    padding: 11.5px;
+
 }
