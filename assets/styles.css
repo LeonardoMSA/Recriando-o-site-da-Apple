@@ -211,6 +211,7 @@ body{
     text-align: center;
     margin-top: 40px;
     font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    opacity: 0.95;
 }
 
 .black-unity-text h1,h4{
@@ -257,11 +258,14 @@ body{
 .apple-watch-text{
     text-align: center;
     margin-top: 70px;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    opacity: 0.95;
 }
 
 .apple-watch-text h2{
     font-size: 22px;
     margin-bottom: 10px;
+    color: #f5f5f7;
 }
 
 .apple-watch-text span a{
@@ -303,6 +307,38 @@ body{
     cursor: pointer;
 }
 
+.iPhone-pro-text{
+    color:#f5f5f7;
+    text-align: center;
+    margin-top: 30px;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    opacity: 0.95;
+}
+
+.iPhone-pro-text h1{
+    font-size: 37px;
+    margin-bottom: 8px;
+}
+
+.iPhone-pro-text h3{
+    font-size: 20px;
+    margin-bottom: 13px;
+}
+
+.iPhone-pro-text span a{
+    text-decoration: none;
+    color: #2997ff;
+    font-size: 17px;
+}
+
+.iPhone-pro-text span a:hover{
+    text-decoration: underline;
+}
+
+.iPhone-pro-link1{
+    margin-right: 24px;
+}
+
 .apple-watch-ultra{
     height: 610px;
     width: 694.5px;
@@ -310,9 +346,10 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-color: #fbfbfd;
-    background-size: contain;
+    background-size: cover;
     display: flex;
     justify-content: center;
     margin-left: 13px;
     cursor: pointer;
 }
+
