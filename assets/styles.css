@@ -353,3 +353,30 @@ body{
     cursor: pointer;
 }
 
+.apple-watch-ultra-text{
+    text-align: center;
+    margin-top: 50px;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    opacity: 0.95;
+}
+
+.apple-watch-ultra-text h2{
+    color: #1d1d1f;
+    font-size: 22px;
+    margin-top: 8px;
+    margin-bottom: 13px;
+}
+
+.apple-watch-ultra-text span a{
+    color:#06c;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.apple-watch-ultra-text span a:hover{
+    text-decoration: underline;
+}
+
+.apple-watch-ultra-link1{
+    margin-right: 24px;
+}
