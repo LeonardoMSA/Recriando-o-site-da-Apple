@@ -1,6 +1,73 @@
 :root{
-    --navBar: color: rgba(245, 245, 247, 0.8);
+    --navBar-text: color: rgba(245, 245, 247, 0.8);
+    --navBar-color: color: rgba(0, 0, 0, 0.8);
     --white: color: rgba(255, 255, 255, 1);
     --black: color:  rgba(0, 0, 0, 1);
 }
 
+body{
+    padding: 0px;
+    margin-top: 4.5vh;
+    margin-left: 0px;
+    overflow-x: hidden;
+}
+
+/* --------- Navigation bar  --------- */
+
+.navBar{
+    height: 4.5vh;
+    background-color: rgba(0,0,0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.navItems{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    list-style-type: none;
+    color:rgba(255,255,255, 0.8);
+}
+
+a{
+    text-decoration: none;
+    color:rgba(255,255,255, 0.8)
+}
+
+/* --------- Navigation bar ^ --------- */
+
+
+/* --------- Main Content --------- */
+
+.images{
+    width: 100vw;
+    height: 72vh;
+    object-fit: cover;
+    margin-bottom: 1vh;
+}
+
+/* --------- Main Content ^ --------- */
+
+
+/* --------- Grid Content --------- */
+
+.grid-container{
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px 12px 12px 12px
+}
+
+.grid-container > img{
+    width: 813.5px;
+    height: 624px;
+    object-fit: cover;
+    
+}
