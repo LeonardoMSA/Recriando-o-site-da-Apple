@@ -190,14 +190,15 @@ body{
 
 .container1{
     height: 610px;
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-bottom: 13px;
 }
 
 .black-unity{
-    height: 610px;
-    width: 694.5px;
+    height: 100%;
+    width: 48.5%;
     background-image: url(Images/black-unity.jpg);
     background-repeat: repeat;
     background-position: center;
@@ -244,10 +245,9 @@ body{
 }
 
 .apple-watch{
-    height: 610px;
-    width: 694.5px;
+    height: 100%;
+    width: 48.5%;
     background-image: url(Images/apple-watch.jpg);
-    margin-left: 13px;
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
@@ -290,14 +290,15 @@ body{
 
 .container2{
     height: 610px;
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-bottom: 13px;
 }
 
 .iPhone-pro{
-    height: 610px;
-    width: 694.5px;
+    height: 100%;
+    width: 48.5%;
     background-image: url(Images/iPhone-pro-bg.jpg);
     background-repeat: repeat;
     background-position: center;
@@ -340,8 +341,8 @@ body{
 }
 
 .apple-watch-ultra{
-    height: 610px;
-    width: 694.5px;
+    height: 100%;
+    width: 48.5%;
     background-image: url(Images/apple-watch-ultra-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -378,5 +379,98 @@ body{
 }
 
 .apple-watch-ultra-link1{
+    margin-right: 24px;
+}
+
+.container3{
+    height: 610px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 13px;
+}
+
+.iPad{
+    height: 100%;
+    width: 48.5%;
+    background-image: url(Images/iPad.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fbfbfd;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin-left: 13px;
+    cursor: pointer;
+}
+
+.iPad-text{
+    text-align: center;
+    margin-top: 40px;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    opacity: 0.9;
+}
+
+.iPad-text h1{
+    color: #1d1d1f;
+    margin-bottom: 0;
+}
+
+.iPad-text h3{
+    color: #1d1d1f;
+    font-size: 22px;
+    margin-top: 6px;
+    margin-bottom: 13px;
+}
+
+.iPad-text span a{
+    color:#06c;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.iPad-text span a:hover{
+    text-decoration: underline;
+}
+
+.iPad-link1{
+    margin-right: 24px;
+}
+
+.beyonce{
+    height: 100%;
+    width: 48.5%;
+    background-image: url(Images/beyonce.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.beyonce-text{
+    text-align: center;
+    margin-top: 55px;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #f5f5f7;
+    opacity: 0.9;
+}
+
+.beyonce-text h2{
+    font-size: 20px;
+}
+
+.beyonce-text span a{
+    color:#f5f5f7;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.beyonce-text span a:hover{
+    text-decoration: underline;
+}
+
+.beyonce-link1{
     margin-right: 24px;
 }
